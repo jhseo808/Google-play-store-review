@@ -46,7 +46,8 @@ try:
     # 필요한 컬럼만 선택
     df2 = df_filtered[['reviewId','userName','content','score','at','reviewCreatedVersion']]
     
-    # 새로운 컬럼(label, AI분석) 추가
+    # 새로운 컬럼(flag, label, AI분석) 추가
+    df2['analyze_flag'] = 0  # 분석 여부 확인용 플래그
     df2['label'] = ""       # 예: sentiment, category 등 향후 삽입 가능
     df2['AI분석'] = ""      # GPT 등을 통한 분석 결과 입력 예정
 
