@@ -1,6 +1,6 @@
 # Google Play Review Collector (Monthly Filter Version)
 
-이 프로젝트는 **Google Play Store**에서 특정 앱의 리뷰를 수집하고,  
+**Google Play Store**에서 특정 앱의 리뷰를 수집하고,  
 **실행한 날짜 기준 “지난달 1일부터 지난달 마지막 날까지” 작성된 리뷰만 자동으로 필터링하여 CSV로 저장**하는 Python 스크립트입니다.
 
 예시:
